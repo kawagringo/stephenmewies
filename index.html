@@ -1,0 +1,416 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Stephen Mewies Gardening Services</title>
+    <!--Font awesome CDN-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <!--Icons for image-gallery-->
+    <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
+    <!--Scroll reveal CDN-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="jquery.scrollTo.min.js"></script>
+    <!--Slow down Scroll for selected sectons-->
+	<script>
+		jQuery(function($)
+		{
+			//reset scroll
+            $.scrollTo(0);
+            //Scroll EXPLORE very slow all website
+            $('#scroll-down').click(function() { $.scrollTo($('#follow'), 30000); });
+            //Slow Smoth Scroll Menu-List
+            $('#to-home').click(function() { $.scrollTo($('#hero'), 2000); });
+            $('#to-story').click(function() { $.scrollTo($('#my-story'), 2000); });
+            $('#to-services').click(function() { $.scrollTo($('#services'), 2000); });
+            $('#to-gallery').click(function() { $.scrollTo($('#gallery'), 2000); });
+            $('#to-contact').click(function() { $.scrollTo($('#contact'), 2000); });
+            $('#to-follow').click(function() { $.scrollTo($('#follow'), 2000); });
+            //Scroll links
+            $('#to-full-gallery').click(function() { $.scrollTo($('#full-gallery'), 2000); });
+            //Scroll back to top
+            $('#to-top').click(function() { $.scrollTo($('#hero'), 1000); });
+
+            $('.scrollup').click(function() {$.scrollTo($('body'), 1000); });
+        }
+		);
+    </script>
+     <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!--Header starts---------------------------------------------------------------------------------------------------------------------->
+    <header>
+        <div class="container">
+            <nav class="nav">
+                <div class="menu-toggle">
+                    <i class="fas fa-bars"></i>
+                    <i class="fas fa-times"></i>
+                </div>
+                <a href="index.html" class="logo animate-left"><img src="images/logo-rosa.png" alt=""></a>
+                <ul class="nav-list">
+                    <li class="nav-item animate-top">
+                        <a id="to-home" href="#hero" class="nav-link active">Home</a>
+                    </li>
+                    <li class="nav-item animate-top">
+                        <a id="to-story" href="#my-story" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item animate-top">
+                        <a id="to-services" href="#services" class="nav-link">Services</a>
+                    </li>
+                    <li class="nav-item animate-top">
+                        <a id="to-gallery" href="#gallery" class="nav-link">Gallery</a>
+                    </li>
+                    <li class="nav-item animate-top">
+                        <a id="to-contact" href="#contact" class="nav-link">Contact</a>
+                    </li>
+                    <li class="nav-item animate-top">
+                        <a id="to-follow" href="#follow" class="nav-link">Follow</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!--Header ends-->
+
+    <!--Hero starts------------------------------------------------------------------------------------------------------------------------>
+    <section class="hero" id="hero">
+        <div class="container">
+            <div class="animate-bottom">
+                <h2 class="sub-headline">
+                    <spam class="first-letter">W</spam>elcome
+                </h2>
+            </div>
+                <h1 class="headline">Stephen Mewies<br>Gardener</h1>
+            <div class="headline-description">
+                <div class="seperator">
+                    <div class="line line-left"></div>
+                    <div class="asterisk"><i class="fas fa-asterisk"></i></div>
+                    <div class="line line-right"></div>
+                </div>
+                <div class="single-animation">
+                    <h5>All things grow<br>with love</h5>
+                    <a id="scroll-down" href="#follow" class="btn cta-btn">Explore</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Herro ends-->
+
+    <!--Discover our story starts---------------------------------------------------------------------------------------------------------->
+    <section class="discover-our-story" id="my-story">
+        <div class="container">
+            <div class="gardener-info">
+                <div class="gardener-description padding-right animate-left">
+                    <div class="global-headline">
+                        <h2 class="sub-headline">
+                            <span class="first-letter">D</span>iscover
+                        </h2>
+                        <h1 class="headline headline-dark">My Story</h1>
+                        <div class="asterisk"><i class="fas fa-asterisk"></i></div>
+                    </div>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum, deleniti debitis rerum delectus, nulla aliquid suscipit vel velit accusantium reprehenderit et pariatur! Animi deleniti ea necessitatibus. Ducimus possimus rerum placeat?
+                    </p>
+                    <a href="#" class="btn body-btn">About me</a>
+                </div>
+                <!--<div class="gardener-info-img animate-right">
+                    <img src="images/our-story-1.jpg" alt="">-->
+                <div class="image-group">
+                    <img class="animate-top" src="images/our-story-1.jpg" alt="">
+                    <img class="animate-bottom" src="images/our-story-2.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Discover our story ends-->
+
+    <!--Offered services starts-------------------------------------------------------------------------------------------------------------->
+    <section>
+        <div id="services">
+            <div class="overlay">
+                <div class="container">
+                    <div class="global-headline">
+                        <div class="animate-top">
+                            <h2 class="sub-headline">
+                                <span class="first-letter">O</span>ffered
+                            </h2>
+                        </div>
+                        <div class="animate-bottom">
+                            <h1 class="headline headline-dark">Services</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-service">
+                    <div class="row">
+                        <div class="service animate-left">
+                            <div class="service-media"> <img src="images/service-1.jpg" alt=" "> </div>
+                                <div class="service-desc">
+                                    <h3>Lawn Care</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.</p>
+                                </div>
+                        </div>
+                        <div class="service animate-left">
+                            <div class="service-media"> <img src="images/service-2.jpg" alt=" "> </div>
+                                <div class="service-desc">
+                                    <h3>Landscape</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.</p>
+                                </div>
+                        </div>
+                        <div class="service animate-left">
+                            <div class="service-media"> <img src="images/service-3.jpg" alt=" "> </div>
+                                <div class="service-desc">
+                                    <h3>Tree Care</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.</p>
+                                </div>
+                        </div>
+                        <div class="service animate-right">
+                            <div class="service-media"> <img src="images/service-4.jpg" alt=" "> </div>
+                                <div class="service-desc">
+                                    <h3>Spring & Fall Cleanup</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.</p>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Offered services end here-->
+
+    <!--Discover Galery starts--------------------------------------------------------------------------------------------------------------->
+    <section id="gallery">
+        <div class="container">
+            <div class="gallery">
+                <div class="image-group padding-right animate-left">
+                    <img src="images/gallery-1.jpg" alt="">
+                    <img src="images/gallery-2.jpg" alt="">
+                    <img src="images/gallery-3.jpg" alt="">
+                    <img src="images/gallery-4.jpg" alt="">
+                </div>
+                <div class="gallery-description animate-right">
+                    <div class="global-headline">
+                        <h2 class="sub-headline">
+                            <span class="first-letter">D</span>iscover
+                        </h2>
+                        <h1 class="headline headline-dark">Gallery</h1>
+                        <div class="asterisk"><i class="fas fa-asterisk"></i></div>
+                    </div>
+                    <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. At laudantium excepturi obcaecati officiis labore reprehenderit atque rerum ullam ut consequuntur minima, distinctio veritatis officia provident ducimus aspernatur nobis. Facere, perspiciatis!
+                    </p>
+                    <a id="to-full-gallery" href="#full-gallery" class="btn body-btn">View the full gallery</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Gallery ends-->
+
+    <!--Full Image Gallery starts---------------------------------------------------------------------------------------------------------->
+    <section id="full-gallery">
+        <div class="container">
+            <div class="image-gallery">
+                <a href="images/new1.jpg" class="img-1 animate-left">
+                    <ion-icon name="expand-outline"></ion-icon>
+                </a>
+                <a href="images/new2.jpg" class="img-2 animate-top">
+                    <ion-icon name="expand-outline"></ion-icon>
+                </a>
+                <a href="images/new3.jpg" class="img-3 animate-right">
+                    <ion-icon name="expand-outline"></ion-icon>
+                </a>
+                <a href="images/new4.jpg" class="img-4 animate-top">
+                    <ion-icon name="expand-outline"></ion-icon>
+                </a>
+                <a href="images/new5.jpg" class="img-5 animate-bottom">
+                    <ion-icon name="expand-outline"></ion-icon>
+                </a>
+                <a href="images/new6.jpg" class="img-6 animate-right">
+                    <ion-icon name="expand-outline"></ion-icon>
+                </a>
+                <a href="images/new7.jpg" class="img-7 animate-left">
+                    <ion-icon name="expand-outline"></ion-icon>
+                </a>
+                <a href="images/new8.jpg" class="img-8 animate-bottom">
+                    <ion-icon name="expand-outline"></ion-icon>
+                </a>
+
+                <a href="images/new9.jpg" class="img-9 animate-left">
+                    <ion-icon name="expand-outline"></ion-icon>
+                </a>
+                <a href="images/new10.jpg" class="img-10 animate-top">
+                    <ion-icon name="expand-outline"></ion-icon>
+                </a>
+                <a href="images/new11.jpg" class="img-11 animate-right">
+                    <ion-icon name="expand-outline"></ion-icon>
+                </a>
+                <a href="images/new12.jpg" class="img-12 animate-top">
+                    <ion-icon name="expand-outline"></ion-icon>
+                </a>
+                <a href="images/new13.jpg" class="img-13 animate-bottom">
+                    <ion-icon name="expand-outline"></ion-icon>
+                </a>
+                <a href="images/new14.jpg" class="img-14 animate-right">
+                    <ion-icon name="expand-outline"></ion-icon>
+                </a>
+                <a href="images/new15.jpg" class="img-15 animate-left">
+                    <ion-icon name="expand-outline"></ion-icon>
+                </a>
+                <a href="images/new16.jpg" class="img-16 animate-bottom">
+                    <ion-icon name="expand-outline"></ion-icon>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!--Contact start---------------------------------------------------------------------------------------------------------------------->
+    <section>
+        <div id="contact">
+            <div class="overlay">
+                <div class="container">
+                    <div class="gardener-description">
+                        <div class="global-headline">
+                            <h2 class="sub-headline">
+                                <span class="first-letter">C</span>ontact
+                            </h2>
+                            <h1 class="headline headline-dark">Send me a message</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-contact">
+            <form action="webform.php" method="POST" class="form">
+                <div class="row100 animate-left">
+                    <div class="col">
+                        <div class="inputBox">
+                            <input type="text" name="First name" required="required">
+                            <span class="text">First Name</span>
+                            <span class="line-2"></span>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="inputBox">
+                            <input type="text" name="Last name" required="required">
+                            <span class="text">Last Name</span>
+                            <span class="line-2"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="row100 animate-right">
+                    <div class="col">
+                        <div class="inputBox">
+                            <input type="text" name="Email" required="required">
+                            <span class="text">Email</span>
+                            <span class="line-2"></span>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="inputBox">
+                            <input type="text" name="Mobile" required="required">
+                            <span class="text">Mobile</span>
+                            <span class="line-2"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="row100 animate-bottom">
+                    <div class="col">
+                        <div class="inputBox textarea">
+                            <textarea name="Message" required="required"></textarea>
+                            <span class="text">Type your message...</span>
+                            <span class="line-2"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="row100 animate-bottom">
+                    <div class="col">
+                        <input type="submit" name="submit" value="Send">
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+    <!--Contact ends here-->
+
+    <!--Footer start------------------------------------------------------------------------------------------------------------------------>
+    <footer>
+    <div id="follow">
+    <div class="overlay-footer">
+        <div class="container">
+            <div class="back-to-top">
+                <a id="to-top" href="#hero"><i class="fas fa-chevron-up"></i></a>
+            </div>
+            <div class="footer-content">
+                <div class="footer-content-about animate-top">
+                    <h4>Contact me</h4>
+                    <div class="asterisk"><i class="fas fa-asterisk"></i></div>
+                    <div class="contact-info">
+                        <div class="contact-info-box">
+                        <h4>Address</h4>
+                        <hr>
+                        <div class="contact-item">
+                            <p>Stephen Mewies Gardening Services</p>
+                            <p>Nottingham</p>
+                        </div>
+                        </div>
+                        <div class="contact-info-box">
+                        <h4>Working Hours</h4>
+                        <hr>
+                        <div class="contact-item">
+                            <p>Monday-Saturday: 09:00 - 18:00</p>
+                            <p>Sunday: CLOSED</p>
+                        </div>
+                        </div>
+                        <div class="contact-info-box">
+                        <h4>Contact Info</h4>
+                        <hr>
+                        <div class="contact-item">
+                            <p>Phone: +1 123 456 1234</p>
+                            <p>Email: stephen_mewies@yahoo.co.uk</p>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-content-divider animate-bottom">
+                    <div class="social-media">
+                        <h4>Follow along</h4>
+                        <ul class="social-icons">
+                            <li>
+                                <a href="#"><i class="fab fa-whatsapp"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fab fa-skype"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://www.facebook.com/smewies1" target="_blank"><i class="fab fa-facebook-square"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fab fa-linkedin"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="newsletter-container">
+                        <h4>Newsletter</h4>
+                        <form action="" class="newsletter-form">
+                            <input type="text" class="newsletter-input" placeholder="Your email adress...">
+                            <button class="newsletter-btn" type="submit">
+                                <i class="fas fa-envelope"></i>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+                <div class="web-developer animate-left">
+                    <p>&copy; 2020 Lukasz Kawecki. Designed by: <a href="http://www.lukaszkawecki.epizy.com" target="blank">Lukasz Kawecki</a>
+                    <i class="fab fa-html5"></i>
+                    <i class="fab fa-css3"></i>
+                    <i class="fab fa-java"></i></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </footer>
+<script src="main.js"></script>
+</body>
+</html>
