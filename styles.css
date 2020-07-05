@@ -735,6 +735,7 @@ header {
 
 .spam-ver {
     color: rgba(105, 175, 8, 0.856);
+    background-color: rgba(105, 175, 8, 0.856);
 }
 
 /*button SEND*/
