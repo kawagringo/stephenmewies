@@ -662,7 +662,8 @@ header {
     color: #000;
 }
 
-.container-contact .row100 .inputBox .text {
+.container-contact .row100 .inputBox .text,
+.container-contact .row100 .inputBox .email {
     position: absolute;
     top: 0;
     left: 0;
@@ -676,6 +677,12 @@ header {
 
 .container-contact .row100 .inputBox input:focus + .text,
 .container-contact .row100 .inputBox input:valid + .text {
+    top: -35px;
+    left: -10px;
+}
+
+.container-contact .row100 .inputBox input:focus + .email,
+.container-contact .row100 .inputBox input:valid + .email{
     top: -35px;
     left: -10px;
 }
@@ -711,6 +718,12 @@ header {
 
 .container-contact .row100 .inputBox textarea:focus + .text,
 .container-contact .row100 .inputBox textarea:valid + .text {
+    top: -35px;
+    left: -10px;
+}
+
+.container-contact .row100 .inputBox textarea:focus + .email,
+.container-contact .row100 .inputBox textarea:valid + .email {
     top: -35px;
     left: -10px;
 }
