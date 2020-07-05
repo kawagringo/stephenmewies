@@ -732,6 +732,11 @@ header {
 .container-contact .row100 .inputBox textarea:valid ~ .line-2 {
     height: 100%;
 }
+
+.spam-ver {
+    color: rgba(105, 175, 8, 0.856);
+}
+
 /*button SEND*/
 input[type="submit"] {
     font-size: 1.3rem;
