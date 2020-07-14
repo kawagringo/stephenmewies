@@ -4,7 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="icon.ico">
     <title>Stephen Mewies Gardening Services</title>
+    <meta name="description" content= "Gardener based in Stapleford, Nottingham, and work in the local area including: Sandiacre, Beeston, Bramcote, Chillwell and Toton. Offer free quote on gardening" />
+    <meta name="robots" content= "index, follow">
     <!--Font awesome CDN-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
     <!--Icons for image-gallery-->
@@ -37,9 +40,14 @@
         }
 		);
     </script>
-     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <div class="loader">
+        <div class="loader-inner">
+            <div class="loader-inner"></div>
+        </div>
+    </div>
     <!--Header starts---------------------------------------------------------------------------------------------------------------------->
     <header>
         <div class="container">
@@ -111,9 +119,9 @@
                         <div class="asterisk"><i class="fas fa-asterisk"></i></div>
                     </div>
                     <p>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum, deleniti debitis rerum delectus, nulla aliquid suscipit vel velit accusantium reprehenderit et pariatur! Animi deleniti ea necessitatibus. Ducimus possimus rerum placeat?
+                        It ain’t always easy finding that perfect gardener. The one that is chatty enough but not annoying, who gets the job done in time and doesn’t leave any mess behind. Sounds fantastic, right?<br>My name is Stephen Mewies and I have a passion for gardening and plants. I studied horticulture at Brooksby Melton College, and have a NVQ level 3 National Diploma in horticulture. My business was established in 2013 and has grown since then. I hold full public liability insurance and I'm registered on the Age UK business directory.<br>I am based in Stapleford, Nottingham and work in the local area including: Sandiacre, Beeston, Bramcote, Chillwell and Toton.<br>Please contact me for a free quotation.<br>I look forward to hearing from you.
                     </p>
-                    <a href="#" class="btn body-btn">About me</a>
+                    <a href="#contact-form" class="btn body-btn">Contact me</a>
                 </div>
                 <!--<div class="gardener-info-img animate-right">
                     <img src="images/our-story-1.jpg" alt="">-->
@@ -127,7 +135,7 @@
     <!--Discover our story ends-->
 
     <!--Offered services starts-------------------------------------------------------------------------------------------------------------->
-    <section>
+    <section id="offered-services">
         <div id="services">
             <div class="overlay">
                 <div class="container">
@@ -147,29 +155,43 @@
                         <div class="service animate-left">
                             <div class="service-media"> <img src="images/service-1.jpg" alt=" "> </div>
                                 <div class="service-desc">
-                                    <h3>Lawn Care</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.</p>
+                                    <h3>Lawn care / cutting</h3>
+                                    <p>Whether the quality and finished look of your lawn is important to you or you simply want a tidy looking lawn Stephen have the answer; passionate about lawns and will not only provide you with a reliable weekly or fortnightly service they will make certain that your requirements are not only met but exceeded.</p>
                                 </div>
                         </div>
                         <div class="service animate-left">
                             <div class="service-media"> <img src="images/service-2.jpg" alt=" "> </div>
                                 <div class="service-desc">
-                                    <h3>Landscape</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.</p>
+                                    <h3>Hedge cutting</h3>
+                                    <p>New hedges must be pruned regularly in order to ensure they grow into the desired shape. If this is not done the hedges can grow in an unruly manner. Hedge reduction and pruning services from Elm Tree can ensure your hedges look neat and tidy.<br>I offer a range of services from cutting new hedges to reducing mature hedges and much more. You can count on me to deliver top quality services at competitive prices.</p>
                                 </div>
                         </div>
                         <div class="service animate-left">
                             <div class="service-media"> <img src="images/service-3.jpg" alt=" "> </div>
                                 <div class="service-desc">
-                                    <h3>Tree Care</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.</p>
+                                    <h3>Small tree pruning</h3>
+                                    <p>Ornamental garden trees require minimal maintenance, but a little sensible pruning can ensure the tree remains healthy and safe and grows in an attractive shape.<br>I offer mall tree pruning and general pruning.</p>
                                 </div>
                         </div>
                         <div class="service animate-right">
                             <div class="service-media"> <img src="images/service-4.jpg" alt=" "> </div>
                                 <div class="service-desc">
-                                    <h3>Spring & Fall Cleanup</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.</p>
+                                    <h3>Weeding & tidying</h3>
+                                    <p>In this area, late spring and early summer offers an extremely good growing environment for all plants, including weeds. Weeding is necessary not just to keep a garden looking neat and tidy, but to optimise the growing conditions for the garden plants.<br>My services include regular hand and mechanical weeding, and weed control by weed-killer.</p>
+                                </div>
+                        </div>
+                        <div class="service animate-right">
+                            <div class="service-media"> <img src="images/service-5.jpg" alt=" "> </div>
+                                <div class="service-desc">
+                                    <h3>Planting and planting advice</h3>
+                                    <p>I have been engaged in providing expert planting advice for many years. The rationale that informs all of my services for planting is to support my clients to achieve a landscape with thriving plants that are excellently suited to the location where they are growing.</p>
+                                </div>
+                        </div>
+                        <div class="service animate-right">
+                            <div class="service-media"> <img src="images/service-6.jpg" alt=" "> </div>
+                                <div class="service-desc">
+                                    <h3>General garden advice</h3>
+                                    <p>Stephen Mewies Gardening Services is dedicated to help you achieve your gardening dreams and projects. I will provide you with gardening advice, Plus your own personal garden expert to help you get started on a gardening project.<br>Don't hesitate to ask for gardening advice.</p>
                                 </div>
                         </div>
                     </div>
@@ -198,7 +220,7 @@
                         <div class="asterisk"><i class="fas fa-asterisk"></i></div>
                     </div>
                     <p>
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. At laudantium excepturi obcaecati officiis labore reprehenderit atque rerum ullam ut consequuntur minima, distinctio veritatis officia provident ducimus aspernatur nobis. Facere, perspiciatis!
+                        As Gardener I always looking for inspirational planted and landscaped gardens. Gardening is not about thinking up the next big idea, but an opportunity to enjoy others work and then hybridise these to create your own little plot of planted and landscaped heaven.<br>I continually look for inspiration in every form and try to capture these as best as possible. Photographing everything from individual flowers, shrubs and bizarre looking fungii to the weight, definition, structure and even elegance of hardcore landscaping that offer a different perspective on what is "beautiful".<br>This gallery shows a mix of photos of how I find inspiration and work completed by me, landscaping gardens throughout Stafford.
                     </p>
                     <a id="to-full-gallery" href="#full-gallery" class="btn body-btn">View the full gallery</a>
                 </div>
@@ -265,7 +287,7 @@
     </section>
 
     <!--Contact start---------------------------------------------------------------------------------------------------------------------->
-    <section>
+    <section id="contact-form"> 
         <div id="contact">
             <div class="overlay">
                 <div class="container">
@@ -348,11 +370,12 @@
                     <div class="asterisk"><i class="fas fa-asterisk"></i></div>
                     <div class="contact-info">
                         <div class="contact-info-box">
-                        <h4>Address</h4>
+                        <h4>Coverage area</h4>
                         <hr>
                         <div class="contact-item">
-                            <p>Stephen Mewies Gardening Services</p>
-                            <p>Nottingham</p>
+                            <p>I am based in Stapleford, Nottingham</p>
+                            <p>and work in the local area including: </p>
+                            <p>Sandiacre, Beeston, Bramcote, Chillwell and Toton.</p>
                         </div>
                         </div>
                         <div class="contact-info-box">
@@ -367,42 +390,34 @@
                         <h4>Contact Info</h4>
                         <hr>
                         <div class="contact-item">
-                            <p>Phone: +1 123 456 1234</p>
+                            <p>Mobile: 07540196091</p>
+                            <p>Home: 0115 8370754</p>
                             <p>Email: stephen_mewies@yahoo.co.uk</p>
                         </div>
                         </div>
+                        <div class="contact-info-box">
+                            <h4>Follow along</h4>
+                            <hr>
+                        <div class="contact-item">
+                            <div class="social-media">
+                                <ul class="social-icons">
+                                    <li>
+                                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.facebook.com/smewies1" target="_blank"><i class="fab fa-facebook-square"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        </div>
                     </div>
                 </div>
-                <div class="footer-content-divider animate-bottom">
-                    <div class="social-media">
-                        <h4>Follow along</h4>
-                        <ul class="social-icons">
-                            <li>
-                                <a href="#"><i class="fab fa-whatsapp"></i></a>
-                            </li>
-                            <li>
-                                <a href="#"><i class="fab fa-skype"></i></a>
-                            </li>
-                            <li>
-                                <a href="https://www.facebook.com/smewies1" target="_blank"><i class="fab fa-facebook-square"></i></a>
-                            </li>
-                            <li>
-                                <a href="#"><i class="fab fa-linkedin"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="newsletter-container">
-                        <h4>Newsletter</h4>
-                        <form action="" class="newsletter-form">
-                            <input type="text" class="newsletter-input" placeholder="Your email adress...">
-                            <button class="newsletter-btn" type="submit">
-                                <i class="fas fa-envelope"></i>
-                            </button>
-                        </form>
-                    </div>
-                </div>
-                <div class="web-developer animate-left">
-                    <p>&copy; 2020 Lukasz Kawecki. Designed by: <a href="http://www.lukaszkawecki.epizy.com" target="blank">Lukasz Kawecki</a>
+                <div class="web-developer animate-bottom">
+                    <p>&copy; 2020 <a href="https://www.lukaszkawecki.com" target="blank">Lukasz Kawecki</a>
                     <i class="fab fa-html5"></i>
                     <i class="fab fa-css3"></i>
                     <i class="fab fa-java"></i></p>
@@ -413,5 +428,11 @@
     </div>
     </footer>
 <script src="main.js"></script>
+<script>
+    let loader = document.querySelector('.loader');
+    window.addEventListener('load', function () {
+        loader.parentElement.removeChild(loader);
+    });
+</script>
 </body>
 </html>
